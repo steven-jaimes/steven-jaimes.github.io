@@ -1,0 +1,105 @@
+/* Estilos generales */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c92424;
+    color: #fff;
+    /* Cambio de color de las letras a blanco */
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #3333;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px #555;
+    /* Mezcla de sombra entre #555 y #3333 */
+    border: 1px solid #333;
+    /* Mezcla de marco entre #555 y #3333 */
+}
+
+.button:hover {
+    background-color: #333;
+    box-shadow: 2px 2px 4px #555;
+    /* Mezcla de sombra al pasar el cursor */
+    border: 1px solid #555;
+    /* Mezcla de marco al pasar el cursor */
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.footer {
+    background-color: #3333;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+
+/* Estilos para diseño adaptativo */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .social-links {
+        margin-bottom: 20px;
+        /* Ajusta el margen inferior según sea necesario */
+    }
+    .social-links a {
+        font-size: 24px;
+        /* Ajusta el tamaño de fuente según sea necesario */
+    }
+}
